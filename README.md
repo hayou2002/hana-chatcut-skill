@@ -83,6 +83,8 @@ assets/                    架构图
 LICENSE                    GPL-3.0（继承自上游声明）
 ```
 
+**边界说明**：`chatcut-editor/` 这个 skill 本身只讲 ChatCut 剪辑能力，保持通用、不夹带任何具体的环境配置或运维事实；本文档（README）与 SOP 才承载接入步骤、连接器 id、路径等环境相关内容。这样 skill 被加载时不会引入无关上下文。
+
 ## 更新上游
 
 ```powershell

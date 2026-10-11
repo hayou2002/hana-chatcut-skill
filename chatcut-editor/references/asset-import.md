@@ -5,7 +5,7 @@
 
 1. First inspect the targeted project's asset library with `read_project` `view:"assets"`; reuse a matching existing asset when possible.
 2. For a public media URL, use the current ChatCut download/import tool and verify the returned asset.
-3. For a local attachment or path readable by Hana, use the package command `chatcut-upload-media` with an `import_media` session.
+3. For a local attachment or path readable by Hana, create an `import_media` session and upload with this skill's own `scripts/upload-media.mjs` helper (see the command form below; Hana does not expose the package command on PATH).
 4. If Hana cannot read the file or run the local upload dependencies, fall back to manual upload in the already-open ChatCut editor, then re-read the project assets.
 
 ## Attachments in the initial prompt

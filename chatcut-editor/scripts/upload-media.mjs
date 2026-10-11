@@ -53,7 +53,7 @@ registered before expensive conversion; transcription audio is uploaded and
 started before asset transcode/upload; the final asset upload slot is requested
 only after transcode so the presigned URL uses the actual prepared file size.
 
-Run only through the WorkBuddy package command chatcut-upload-media. Node.js 18+ and ffmpeg/ffprobe on PATH are required.
+Run only through this skill's own scripts/upload-media.mjs helper, invoked with an absolute path via node (Hana does not add the package bin/ directory to PATH). Node.js 18+ and ffmpeg/ffprobe on PATH are required.
 `);
 }
 

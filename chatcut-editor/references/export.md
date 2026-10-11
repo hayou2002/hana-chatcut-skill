@@ -25,7 +25,7 @@ Video codecs are `h264` and `vp8`; supported fps values are `24`, `25`, `30`, `5
 For a completed video or audio export, turn the cloud render into a directly playable Hana deliverable:
 
 1. Use only the final download URL returned by `submit_export` or `track_export`. Treat signed URLs as sensitive and do not repeat them in user-facing prose or logs unnecessarily.
-2. Choose a descriptive filename with the correct extension and download it into 当前 Hana 工作区目录（如 D:\AI\工作）. Do not overwrite an unrelated existing file. Use `curl` with redirect following and failure handling, for example:
+2. Choose a descriptive filename with the correct extension and download it into the current Hana workspace directory. Do not overwrite an unrelated existing file. Use `curl` with redirect following and failure handling, for example:
 
    ```bash
    curl --fail --location --silent --show-error --output "/absolute/hana/workspace/final-video.mp4" "<downloadUrl>"
