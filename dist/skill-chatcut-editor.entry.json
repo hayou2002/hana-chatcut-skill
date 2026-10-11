@@ -1,0 +1,15 @@
+{
+  "kind": "skill",
+  "id": "chatcut-editor",
+  "name": "chatcut-editor",
+  "publisher": "hayou2002",
+  "description": "ChatCut 云端 AI 视频剪辑专家（适配自 ChatCut 官方 WorkBuddy 专家包，Hana 版）。通过 Hana 的 chatcut MCP 连接器，在真实可编辑的 ChatCut 时间线上完成：素材导入与转写、口播精剪/去口头禅/停顿压缩、字幕、B-roll、转场、调色、Motion Graphics、AI 图片/视频/音乐/配音生成、验证与导出（MP4/音频/SRT/Premiere/DaVinci 工程）。当用户提到 ChatCut、云端剪片、口播剪辑、加字幕、生成配音配乐、剪成竖屏短视频、导出成片、或点名 chatcut 工具时使用。即使没明说「ChatCut」，只要是「让 AI 帮我在云端时间线上剪一条片」的需求也应加载。不适用于本地 OpenChatCut/剪映/达芬奇的离线操作，除非用户明确要求走 ChatCut。",
+  "version": "0.0.0",
+  "permissions": [],
+  "archive": {
+    "url": "{{BASE_URL}}/skill-chatcut-editor-8191aa1382592f684d63a574cce050ccda8748a71b2428f1c7b3f16940c8a1e2.zip",
+    "sha256": "8191aa1382592f684d63a574cce050ccda8748a71b2428f1c7b3f16940c8a1e2",
+    "size": 281188,
+    "format": "zip"
+  }
+}
